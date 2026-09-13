@@ -22,8 +22,10 @@ pip install requests
 pip install mechanize
 pkg install python
 pkg install python -y
-pkg update && pkg upgrade
-pkg update && pkg upgrade -y
+pkg update
+pkg upgrade
+pkg update
+pkg upgrade -y
 termux-setup-storage
 
 ```
